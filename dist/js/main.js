@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', function () {
       name: 'Median early career salary',
       // color: 'rgba(126,86,134,.9)',
       data: [68800, 66600, 64200, 50900, 47000, 46500, 43860, 41800, 41000],
-      pointPadding: -.4 // pointPlacement: 0
-
+      pointPadding: -.4,
+      pointPlacement: -.15
     }, {
       name: 'Average early career expectations',
       // color: 'rgba(165,170,217,1)',
       data: [59303, 62417, 64615, 64428, 57964, 61085, 43843, 51730, 46616],
       pointPadding: 0.2,
-      pointPlacement: .35
+      pointPlacement: .2
     }],
     title: {
       text: null
