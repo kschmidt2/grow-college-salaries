@@ -88,8 +88,8 @@
     fill: $slate-secondary-5;
     // use this to change the axis label
     & span:first-child {
-      &:after {
-        content: " hours";
+      &:before {
+        content: "$";
     }
     }
   }
@@ -208,13 +208,13 @@
   /* Series options */
   /* Default colors */
   .highcharts-color-0 {
-    fill: $green-secondary-3;
-    stroke: $green-secondary-3;
+    fill: $green-secondary-2;
+    stroke: $green-secondary-2;
   }
   
   .highcharts-color-1 {
-    fill: $purple-primary;
-    stroke: $purple-primary;
+    fill: $green-secondary-5;
+    stroke: $green-secondary-5;
   }
   
   .highcharts-color-2 {
@@ -302,6 +302,24 @@
   .highcharts-markers .highcharts-point-select {
     fill: #cccccc;
     stroke: #000000;
+  }
+
+  .highcharts-series-0 {
+    & rect {
+      &:nth-child(6) {
+        fill: $slate-secondary-3;
+        stroke: $slate-secondary-3;
+      }
+    }
+  }
+
+  .highcharts-series-1 {
+    & rect {
+      &:nth-child(6) {
+        fill: $slate-secondary-5;
+        stroke: $slate-secondary-5;
+      }
+    }
   }
   
   .highcharts-column-series rect.highcharts-point {
