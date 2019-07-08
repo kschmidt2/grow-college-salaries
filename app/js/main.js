@@ -26,13 +26,13 @@ document.addEventListener('DOMContentLoaded', function () {
         series: [{
             name: 'Median early career salary',
             // color: 'rgba(126,86,134,.9)',
-            data: [64200,50900,66600,46500,68800,47000,41800,41000,43860],
+            data: [68800,66600,64200,50900,47000,46500,43860,41800,41000],
             pointPadding: -.4
             // pointPlacement: 0
         },{
             name: 'Average early career expectations',
             // color: 'rgba(165,170,217,1)',
-            data: [64615,64428,62417,61085,59303,57964,51730,46616,43843],
+            data: [59303,62417,64615,64428,57964,61085,43843,51730,46616],
             pointPadding: 0.2,
             pointPlacement: .35
         }],
@@ -63,15 +63,15 @@ document.addEventListener('DOMContentLoaded', function () {
                   }
             },
             categories: [
+                'Computer science',
+                'Nursing',
                 'Engineering',
                 'Sciences',
-                'Nursing',
-                'Business',
-                'Computer science',
                 'All majors',
+                'Business',
+                'Humanities',
                 'Communications',
-                'Education',
-                'Humanities'
+                'Education' 
             ]
         },
         yAxis: {
