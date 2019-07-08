@@ -42,7 +42,8 @@ document.addEventListener('DOMContentLoaded', function () {
       symbolRadius: 0,
       verticalAlign: 'top',
       x: 10,
-      itemMarginTop: -10
+      itemMarginTop: -10,
+      reversed: true
     },
     plotOptions: {
       series: {

@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             verticalAlign: 'top',
             x: 10,
             itemMarginTop: -10,
+            reversed: true
         },
         plotOptions: {
             series: {
