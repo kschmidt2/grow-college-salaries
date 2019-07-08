@@ -67,8 +67,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Nursing',
                 'Engineering',
                 'Sciences',
-                'All majors',
                 'Business',
+                'All majors',
                 'Humanities',
                 'Communications',
                 'Education' 

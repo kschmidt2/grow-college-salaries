@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
           whiteSpace: 'nowrap'
         }
       },
-      categories: ['Computer science', 'Nursing', 'Engineering', 'Sciences', 'All majors', 'Business', 'Humanities', 'Communications', 'Education']
+      categories: ['Computer science', 'Nursing', 'Engineering', 'Sciences', 'Business', 'All majors', 'Humanities', 'Communications', 'Education']
     },
     yAxis: {
       title: false,
