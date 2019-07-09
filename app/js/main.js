@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },{
             name: 'Average early career expectations',
             // color: 'rgba(165,170,217,1)',
-            data: [59303,62417,64615,64428,57964,61085,43843,51730,46616],
+            data: [59303,62417,64615,64428,61085,57964,43843,51730,46616],
             pointPadding: 0.2,
             pointPlacement: .2
         }],
